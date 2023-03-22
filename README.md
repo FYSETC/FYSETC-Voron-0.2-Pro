@@ -1,4 +1,4 @@
-# FYSETC-Voron-0.2
+# FYSETC-Voron-0.2-Pro
 
 This is a project from the VORON community, VORON 0.2. We made a little upgrade and improvement on the basis of this project, and provided a complete set of information. Thanks to the open source materials and support provided by the VORON community, and hope you like it. You can find Voron official information below.
 
