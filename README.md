@@ -80,7 +80,7 @@ Following is our Cheetah v3.0 board wiring diagram for VORON 0.2 pro kit.
 
 ## 6. Firmware&OS
 
-You can check `README.md` in `Firmware&OS` folder beside this `README.md` file [here](https://github.com/FYSETC/FYSETC-Voron-0/tree/main/Firmware&OS). Well we already flashed OS system (on sdcard) and Klipper firmware on Cheetah board for you before the kit leave the factory.
+You can check `README.md` in `Firmware&OS` folder beside this `README.md` file [here](https://github.com/FYSETC/FYSETC-Voron-0.2-Pro/tree/main/Firmware%26OS). Well we already flashed OS system (on sdcard) and Klipper firmware on Cheetah board for you before the kit leave the factory.
 
 ## 7. Community
 
