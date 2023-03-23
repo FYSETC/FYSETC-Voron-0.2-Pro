@@ -76,7 +76,7 @@ Please check it on our [youtube](https://www.youtube.com/watch?v=a5HArBp4h3s).
 
 Following is our Cheetah v3.0 board wiring diagram for VORON 0.2 pro kit.
 
-![](E:/Github/FYSETC-Voron-0/FYSETC_VORON0.1_rev1.1_Wiring.png)
+![](https://github.com/FYSETC/FYSETC-Voron-0.2-Pro/blob/main/Fysetc%20Voron%20V0.2%20umbilical%20Wiring.png)
 
 ## 6. Firmware&OS
 
