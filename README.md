@@ -80,7 +80,48 @@ Following is our Cheetah v3.0 board wiring diagram for VORON 0.2 pro kit.
 
 ## 6. Firmware&OS
 
-You can check `README.md` in `Firmware&OS` folder beside this `README.md` file [here](https://github.com/FYSETC/FYSETC-Voron-0.2-Pro/tree/main/Firmware%26OS). Well we already flashed OS system (on sdcard) and Klipper firmware on Cheetah board for you before the kit leave the factory.
+
+After you finish assembling and inspecting, be sure to wire according to the wiring diagram, and make sure that all positive and negative poles are not reversed before powering on. If you have a multimeter, it is best to check again that the power input port is not short-circuited.
+Next we start configuring the firmware:
+### 6.1. Install the Raspberry Pi
+
+There is a Micro SD Card with the mainsail OS system burned in our kit. The capacity is 16GB. You need to insert it into the card slot of the Raspberry Pi, and connect the Raspberry Pi to the main board with a USB cable and a power cable (it is a 6-core Dupont cable, which contains a serial port, but the power supply is made by default, and the serial port is a spare).
+
+If you need to reinstall the system, you can refer to the following link:
+https://docs-os.mainsail.xyz/getting-started/raspberry-pi-os-based
+
+### 6.2. Configure the Cheetah Board
+
+Use SSH software to connect to your Raspberry Pi and enter the following command:
+```
+lsusb
+```
+You should see the device as shown below:
+![f594bed8034b73cb2d8be8c553d1cc95.png](en-resource://database/1854:1)
+If not, please go back and check the power supply and wiring of the motherboard to ensure that each power indicator light is on.
+![b0b11e53b1c7c9934983083631e95df1.png](en-resource://database/1856:1)
+
+
+Enter the following command to get the board ID:
+```
+ls /dev/serial/by-id
+```
+Copy the ID with Crtl+C
+![5bbf203144212eed07b432f400ad4a0e.png](en-resource://database/1858:1)
+
+
+Use the browser to enter the IP address of the Raspberry Pi to enter the mainsail interface
+Click on MACHINE
+Click printer.cfg in the list to enter the editing interface
+![3d369e7bf9beca125dcf7af544db77db.png](en-resource://database/1864:1)
+
+Replace the ID in the [mcu] section
+![63e00fd5cd6aafbb8f8f5369ac4adac8.png](en-resource://database/1862:1)
+
+Click SAVE & RESTART
+
+If it goes well, the system will automatically jump to Dashboard, and you can see the temperature curve
+
 
 ## 7. Community
 
