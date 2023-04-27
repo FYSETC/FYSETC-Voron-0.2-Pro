@@ -97,7 +97,7 @@ Use SSH software to connect to your Raspberry Pi and enter the following command
 lsusb
 ```
 You should see the device as shown below:
-![f594bed8034b73cb2d8be8c553d1cc95.png](en-resource://database/1854:1)
+![Image01.png](./Docs/Maunal/Image01.png)
 If not, please go back and check the power supply and wiring of the motherboard to ensure that each power indicator light is on.
 ![b0b11e53b1c7c9934983083631e95df1.png](en-resource://database/1856:1)
 
