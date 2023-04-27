@@ -97,9 +97,9 @@ Use SSH software to connect to your Raspberry Pi and enter the following command
 lsusb
 ```
 You should see the device as shown below:
-![Image01.png](./Docs/Maunal/Image01.png)
+![Image01.png](https://github.com/FYSETC/FYSETC-Voron-0.2-Pro/blob/main/Docs/Manuals/Image01.png)
 If not, please go back and check the power supply and wiring of the motherboard to ensure that each power indicator light is on.
-![b0b11e53b1c7c9934983083631e95df1.png](en-resource://database/1856:1)
+![b0b11e53b1c7c9934983083631e95df1.png](https://github.com/FYSETC/FYSETC-Voron-0.2-Pro/blob/main/Docs/Manuals/Image02.png)
 
 
 Enter the following command to get the board ID:
@@ -107,16 +107,16 @@ Enter the following command to get the board ID:
 ls /dev/serial/by-id
 ```
 Copy the ID with Crtl+C
-![5bbf203144212eed07b432f400ad4a0e.png](en-resource://database/1858:1)
+![5bbf203144212eed07b432f400ad4a0e.png](https://github.com/FYSETC/FYSETC-Voron-0.2-Pro/blob/main/Docs/Manuals/Image03.png)
 
 
 Use the browser to enter the IP address of the Raspberry Pi to enter the mainsail interface
 Click on MACHINE
 Click printer.cfg in the list to enter the editing interface
-![3d369e7bf9beca125dcf7af544db77db.png](en-resource://database/1864:1)
+![3d369e7bf9beca125dcf7af544db77db.png](https://github.com/FYSETC/FYSETC-Voron-0.2-Pro/blob/main/Docs/Manuals/Image04.png)
 
 Replace the ID in the [mcu] section
-![63e00fd5cd6aafbb8f8f5369ac4adac8.png](en-resource://database/1862:1)
+![63e00fd5cd6aafbb8f8f5369ac4adac8.png](https://github.com/FYSETC/FYSETC-Voron-0.2-Pro/blob/main/Docs/Manuals/Image05.png)
 
 Click SAVE & RESTART
 
