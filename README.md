@@ -122,6 +122,89 @@ Click SAVE & RESTART
 
 If it goes well, the system will automatically jump to Dashboard, and you can see the temperature curve
 
+## 6.3.1 Build Firmware Image
+
+
+* Login to the Raspberry Pi via ssh
+* Run the following:
+
+   ```
+   cd ~/klipper
+   make clean
+   make menuconfig
+   ```
+
+* In the menu structure there are a number of items to be selected.
+  * Select "Enable extra low-level configuration options"
+  * Set the micro-controller architecture is set to `STMicroelectronics STM32`
+  * Set the Processor model to `STM32F446`
+  * **Many people have been unable to connect to the MCU because of the bootloader problem, so we recommends choosing a mode without a bootloader.**
+  * Set the Clock Reference to `12 MHz crystal`
+  * Set the Communication interface to `USB (on PA11/PA12)`  
+
+   ![9b3101cfbb31b68bd3cda3e6878cf448.png](en-resource://database/1882:1)
+   
+
+* Once the configuration is selected, press `q` to exit, and "Yes" when  asked to save the configuration.
+
+* Run the command `make`
+* The `make` command, when completed, creates a firmware file **klipper.bin** which is stored in the folder `/home/pi/klipper/out`.  
+
+## 6.3.2 Firmware Installation
+
+* Requires a USB connection
+* Requires the installation of an extra jumper on the Cheetah V3 ( short the 3V3 and BT0)
+* Does NOT require a microSD card
+
+1. Power off the Cheetah V3
+2. Install a jumper between BT0 and 3V3
+3. 
+![8bb85aaaaf1bed3609ff19f9f13fac75.png](en-resource://database/1890:0)
+
+3. Connect Cheetah V3 & Pi via USB
+4. Power on Cheetah V3
+5. From your ssh session, run
+    ```
+    cd ~/klipper
+    ```
+    to make sure you are in the correct directory
+6. Run 
+    ```
+     lsusb
+    ```
+    and find the ID of the DFU device.
+    
+    ![efb145905fa37660bb29c28affcc7027.png](en-resource://database/1886:1)
+    
+7. Run 
+    ```
+     make flash FLASH_DEVICE=0483:df11
+    ```
+    In general, the DFU mode of STM32 is this ID, if not, replacing 0483:df11 with the ID from the previous step
+ 8. If everything goes well, you will see the words SUCCESSFUL.
+ 9. 
+ ![d300f8722e45ba04aae9e33dfda1b90c.png](en-resource://database/1888:1)
+ 
+    
+8. Power off the Cheetah V3
+
+9. Move the jumper to BT0 & GND (When the STM32 is turned on, BT0 should be at a low level, and it is also possible to hang it in the air, but in order to avoid unpredictable problems, it is better to short-circuit BT0 and GND here, which is more secure.)
+
+![3132e64b7c567b0084b277cb47473bed.png](en-resource://database/1892:0)
+
+
+10. Power up the Cheetah V3
+
+11. You can confirm that the flash was successful by running `ls /dev/serial/by-id`.  If the flash was successful, this should now show a klipper device, similar to:
+ 
+     ![10e22edf56283ce3aa5eae4333bda754.png](en-resource://database/1884:1)
+  
+
+   (note: this test is not applicable if the firmware was compiled for UART, rather than USB)
+
+
+**Important:** If the Cheetah V3 is not powered with 12-24V, Klipper will be unable to communicate with the TMC drivers via UART and the Cheetah V3 will automatically shut down.
+
 
 ## 7. Community
 
