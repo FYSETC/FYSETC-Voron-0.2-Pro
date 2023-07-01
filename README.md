@@ -39,6 +39,11 @@ This is a project from the VORON community, VORON 0.2. We made a little upgrade 
 14.Use Klipper firmware
 Running on Cheetah v3.0 and Raspberry Pi 4 2GB, it can achieve higher printing speed, provide Web control (via WiFi or Ethernet), can connect to a camera.
 
+### 32bit or 64bit, which should I take?
+
+We ran a few synthetic benchmarks and we could not confirm that there is a benefit in performance for our use case, so we recommend to use the 32bit version. **The 64bit version would be only the better choice, if you have a Raspberry with more than 4GB RAM**. [More](https://docs-os.mainsail.xyz/getting-started/raspberry-pi-os-based)
+
+
 ## 2. BOM
 
 Check [here](https://github.com/FYSETC/FYSETC-Voron-0.2/blob/main/BOM.md).
