@@ -1,66 +1,90 @@
-# FYSETC-Voron-0.2-Pro
+# Introduction
 
 This is a project from the VORON community, VORON 0.2. We made a little upgrade and improvement on the basis of this project, and provided a complete set of information. Thanks to the open source materials and support provided by the VORON community, and hope you like it. You can find Voron official information below.
 
-1.VORON 0.2 Official website：https://vorondesign.com/voron0.2
+1. VORON 0.2 Official website：
 
-2.VORON 0.2 Official Github：https://github.com/VoronDesign/Voron-0
+https://vorondesign.com/voron0.2
 
-![](https://github.com/FYSETC/FYSETC-Voron-0.2/blob/main/VORON02.jpg)
+2. VORON 0.2 Official Github:
 
-## 1. Kit advantages:
+https://github.com/VoronDesign/Voron-0
 
-1.VORON 0 1.3-inch OLED display
+# Featrue
 
-2.One-piece CNC hotbed holder 
+The new **voron 0. 2 Pro R1 Kit** has a new design for the electronic part, which is easier to connect and configure, and is as close as possible to out-of-the-box use.
 
-3.Tophat cover (you can lift the top cover at any time for more convenient maintenance)
+# Bill of Materials
 
-4.Sensorless Homing 
+|       |                   |                                                              |        |                                     |
+| ----- | ----------------- | ------------------------------------------------------------ | ------ | ----------------------------------- |
+| Index | Sort              | Component                                                    | Qty    | Note                                |
+| 1     | Fasteners         | Voron V0.2 R1 fasteners Pack （Black）12.9                   | 1 SET  |                                     |
+| 2     | Extruder Hardware | BMG Extruder gear kit(Includes all accessories)              | 1 SET  |                                     |
+| 3     | Frame             | Voron 0.2 1515 aluminum extrusion profile frame kit          | 27 PCS |                                     |
+| 4     | Electronics       | Meanwell LRS-150-24                                          | 1 PC   |                                     |
+| 5     | Electronics       | FYSETC CATALYST 3.0                                          | 1 PC   | Upgrade                             |
+| 6     | Electronics       | Voron V0 1.3 inch OLED Display Screen                        | 1 PC   |                                     |
+| 7     | Electronics       | CM68 Linux core board (based on RK3568, 2GB+32GB), Raspberry Pi 4 replacement | 1 PC   | Upgrade                             |
+| 8     | Electronics       | MicroSD Card 16G                                             | 1 PC   |                                     |
+| 9     | Electronics       | NEMA14 Stepper Motor 40Ncm 35HSH7402-24B-300A(check [here](https://github.com/FYSETC/FYSETC-MOTORS/tree/main/35HSH7402-24B-300A)) | 2 PCS  |                                     |
+| 10    | Electronics       | NEMA17 Stepper Motor (34mm max) with integrated lead screw 200mm T8x8 42HSC1404B-200N8(check [here](https://github.com/FYSETC/FYSETC-MOTORS/tree/main/42HSC1404B-200N8)) Teflon wire | 1 PC   |                                     |
+| 11    | Electronics       | NEMA14 36mm round pancake Stepper Motor with 10 tooth spur gear G36HSY4405-6D-80(check [here](https://github.com/FYSETC/FYSETC-MOTORS/tree/main/G36HSY4405-6D-80)) Teflon wire | 1 PC   |                                     |
+| 12    | Electronics       | 3010 blower fans 24V                                         | 2 PCS  |                                     |
+| 13    | Electronics       | 3010 axial fan 24V                                           | 2 PCS  |                                     |
+| 14    | Electronics       | Omron Micro Switch（Z-endstop With wire）                    | 1 PC   |                                     |
+| 15    | Electronics       | C13 Power Cord                                               | 1 PC   |                                     |
+| 16    | Electronics       | AC Inlet （ With Fuse ）                                     | 1 SET  |                                     |
+| 17    | Electronics       | Tornodo hotend（ Both all-metal and PTFE heatbreak included） | 1 PC   |                                     |
+| 18    | Electronics       | 24V Heater Cartridge (slim wires)                            | 1 PC   |                                     |
+| 19    | Electronics       | Thermistor NTC 100K B3950                                    | 1 PC   |                                     |
+| 20    | Electronics       | VHB tape (20mm)                                              | 1 PC   |                                     |
+| 21    | Electronics       | Omron Micro Switch（Filament sensor With wire）              | 1 PC   | Add                                 |
+| 22    | Cables            | UMBILICAL cable Teflon                                       | 1 SET  | upgrade                             |
+| 23    | Cables            | VORON V0.2 TOOL HEAD                                         | 1 SET  | upgrade                             |
+| 24    | Cables            | Voron 0.2 cables kit（All cables are connected to the terminals，Plug and play，Label buckle）Teflon wire | 1 SET  |                                     |
+| 25    | Cables            | 2mmx120mm zip ties                                           | 50 PCS |                                     |
+| 26    | Cables            | Network cable                                                | 1 PC   |                                     |
+| 27    | Cables            | Type-C line elbow                                            | 1 PC   |                                     |
+| 28    | Motion            | F623-RS Bearing                                              | 24 PCS |                                     |
+| 29    | Motion            | MGN7H Linear Rail with Carriage (150mm) Stainless steel 440C | 5 PCS  |                                     |
+| 30    | Motion            | GT2 20T (6mm wide) (5mm bore)                                | 2 PCS  |                                     |
+| 31    | Motion            | 6RF Open Belt 6mm GT2 (2.1 meters)                           | 1 PC   |                                     |
+| 32    | Motion            | T8 flange Nut 8mm Lead --anti-backlash                       | 1 PC   |                                     |
+| 33    | Buildplate        | Aluminum Build Plate (MIC6) 120x120mm                        | 1 PC   | Positionable steel plate like prusa |
+| 34    | Buildplate        | Silicone DC 24V Heater 100x100mm 75W （Faster heating rate）with plug | 1 PC   |                                     |
+| 35    | Buildplate        | Thermal Fuse (125C) with plug                                | 1 PC   |                                     |
+| 36    | Buildplate        | Yellow die springs 8x4x20mm                                  | 3 PCS  |                                     |
+| 37    | Buildplate        | PEI Powder Coated Spring Steel Flex Buildplate 120x124mm notched | 1 PC   |                                     |
+| 38    | Buildplate        | Magnetic sheet for spring steel plate 120x120mm              | 1 PC   |                                     |
+| 39    | Panels            | Voron 0.2 Acrylic Panels kit                                 | 1 SET  |                                     |
+| 40    | Bowden            | Bowden Fitting ECAS04                                        | 3 PCS  | Increase Quantity                   |
+| 41    | Bowden            | Bowden Tubing 4mmOD 1.9mmID (1.5 meter)                      | 1 PC   |                                     |
+| 42    | Misc              | Tank Chain 7x7mm                                             | 1 PC   |                                     |
+| 43    | Misc              | Little Rubber Feet (14x11x11mm)                              | 4 PCS  |                                     |
+| 44    | Misc              | XH2.54 2/3/4 Pin Plastic shell                               | 1 SET  |                                     |
+| 45    | Misc              | 6mm x 3mm Round Neodymium Magnets                            | 8 PCS  |                                     |
+| 46    | Misc              | Weaving casing φ8mm length 180mm                             | 1 SET  |                                     |
+| 47    | Misc              | Weaving casing φ8mm length 205mm                             | 1 SET  |                                     |
+| 48    | Misc              | FYSETC label                                                 | 1 PC   |                                     |
+| 49    | Misc              | Voron V0 Full Metal Heat Bed Frame                           | 1 PC   | upgrade                             |
+| 50    | Misc              | Voron V0 Full metal gantry Super light CNC Part              | 1 PC   | upgrade                             |
+| 51    | Misc              | VORON V0 Rail retainer with nut                              | 1 PC   | upgrade                             |
+| 52    | Misc              | PVC wiring duct 160                                          | 1 PC   | upgrade                             |
+| 53    | Tools             | Cutting pliers                                               | 1 PC   |                                     |
+| 54    | Tools             | Hexagonal wrenchs                                            | 1 SET  |                                     |
+| 55    | Misc              | Thermal silica                                               | 1 PC   |                                     |
+| 56    | Misc              | USB extension cable                                          | 1 PC   | Add                                 |
+| 57    | Misc              | RJ45 extension cable                                         | 1 PC   | Add                                 |
+| 58    | Misc              | USB WiFi                                                     | 1 PC   | Add                                 |
+| 59    | Misc              | MR85ZZ Ball bearing                                          | 1 PC   | Add                                 |
+| 60    | Misc              | FYSETC Voron V0.2 Wiring manual                              | 1 SET  |                                     |
 
-5.Upgrade MINI Stealthburner head
-
-6.CNC Lightweight Gantry
-
-7.Print surface: high-quality powder PEI steel plate, good adhesion, flexibility, easy to take molds; platform: MIC6 aluminum finishing, flatness up to 0.05, attached to high-temperature soft magnetic, and additionally designed positioning pillars, which can be fast Place the steel plate in place and not easily move.
-
-8.Tornado hotend, check the features [here](https://github.com/FYSETC/FYSETC-Voron-0/blob/main/Tornado_hotend.md). (Please installation guide on our [youtube](https://www.youtube.com/watch?v=a5HArBp4h3s))
-
-9.Provide a complete set of crimped terminal Teflon wires, suitable in length, plug and play, and easy to use.
-
-10.It adopts high-precision Stainless steel 440c linear guide, precise position and stable operation
-
-11.Imported silicone thermal mattress, high temperature resistance, built-in over-temperature fuse, high power 24V 75W, fast heating.
-
-12.High-quality motors.
-
-13.Contains VORON V0 UMBILICAL FRAME and VORON V0 UMBILICAL TOOL HEAD
-
-14.Use Klipper firmware
-Running on Cheetah v3.0 and Raspberry Pi 4 2GB, it can achieve higher printing speed, provide Web control (via WiFi or Ethernet), can connect to a camera.
-
-## 2. BOM
-
-Check [here](https://github.com/FYSETC/FYSETC-Voron-0.2/blob/main/BOM.md).
-
-## 3. Modified STLs (2023.03.03)
+# Modified STLs
 
 
 
-So we modify these STLs base on the originals. You can find them in our `github` or `gitee`.
-
-`FramePCBCover X1.stl` : For VORON V0 UMBILICAL FRAME[github](https://github.com/FYSETC/FYSETC-Voron-0.2/blob/main/STL/ADD/FramePCBCover%20X1.STL)
-
-`ToolheadSpacer_with_StrainRelief X1`:For VORON V0 UMBILICAL TOOL HEAD [github](https://github.com/FYSETC/FYSETC-Voron-0.2/blob/main/STL/ADD/ToolheadSpacer_with_StrainRelief%20X1.STL)
-
-`VORON0.1 X2.stl` :For CNC Lightweight Gantry [github](https://github.com/FYSETC/FYSETC-Voron-0.2/blob/main/STL/ADD/VORON0.1%20X2.stl)
-
-`LJY-B01 X1.stl`:For One-piece CNC hotbed holder [github](https://github.com/FYSETC/FYSETC-Voron-0.2/blob/main/STL/ADD/LJY-B01%20X1.STL)
-
-`Drag Chain Spacer X1.stl`:For One-piece CNC hotbed holder Chain [github](https://github.com/FYSETC/FYSETC-Voron-0.2/blob/main/STL/ADD/Drag%20Chain%20Spacer%20X1.STL)
-
-
-## 4. Installation Guide
+# Installation Guide
 
 ### 4.1 VORON Assembly manual
 
@@ -70,146 +94,164 @@ Check it [here](https://github.com/VoronDesign/Voron-0/tree/Voron0.2/Manuals).
 
 Please check it on our [youtube](https://www.youtube.com/watch?v=a5HArBp4h3s).
 
-## 5. Wiring
+# Wiring
 
-### 5.1 Pro kit
+Following the Catalyst board wiring diagram for VORON 0.2 pro R1 kit.
 
-Following is our Cheetah v3.0 board wiring diagram for VORON 0.2 pro kit.
+[img](image/catalyst_voron0.2_diagram.jpg)
 
-![](https://github.com/FYSETC/FYSETC-Voron-0.2-Pro/blob/main/Fysetc%20Voron%20V0.2%20umbilical%20Wiring.png)
+# Firmware&OS
 
-## 6. Firmware&OS
+## CM68 OS 
 
+<p style="color: green">
+<strong>
+The control board of this kit has been installed with klipper OS and MCU klipper firmware at the factory. And it's pre-configured.
+As long as the wiring is correct, it can be used after power on.
+</strong>
+</p>
 
-After you finish assembling and inspecting, be sure to wire according to the wiring diagram, and make sure that all positive and negative poles are not reversed before powering on. If you have a multimeter, it is best to check again that the power input port is not short-circuited.
-Next we start configuring the firmware:
-### 6.1. Install the Raspberry Pi
+<p style="color: red">
+<strong>
+Do not perform the following steps unless you are sure you want to reinstall the firmware.
+</strong>
+</p>
 
-There is a Micro SD Card with the mainsail OS system burned in our kit. The capacity is 16GB. You need to insert it into the card slot of the Raspberry Pi, and connect the Raspberry Pi to the main board with a USB cable and a power cable (it is a 6-core Dupont cable, which contains a serial port, but the power supply is made by default, and the serial port is a spare).
+The control board uses the CM68 core based on RK3568 as the upper computer of klipper. Its system is compiled based on Debian 10, and the environment and plug-ins required by klipper are pre-installed. After burning, it can be used directly.
 
-If you need to reinstall the system, you can refer to the following link:
-https://docs-os.mainsail.xyz/getting-started/raspberry-pi-os-based
+In general, the pre-installed system can be used directly without reflashing, unless you encounter unsolvable program problems.
 
-### 6.2. Configure the Cheetah Board
+The OS of CM68:
 
-Use SSH software to connect to your Raspberry Pi and enter the following command:
-```
-lsusb
-```
-You should see the device as shown below:
-![Image01.png](https://github.com/FYSETC/FYSETC-Voron-0.2-Pro/blob/main/0.2/Docs/Manuals/Image01.png)
-If not, please go back and check the power supply and wiring of the motherboard to ensure that each power indicator light is on.
-![Image02.png](https://github.com/FYSETC/FYSETC-Voron-0.2-Pro/blob/main/0.2/Docs/Manuals/Image02.png)
+https://drive.google.com/file/d/1JBLMIpcVtEe9ST9WWUlaOP-ofm4k7y5c/view?usp=drive_link
 
+Update steps:
 
-Enter the following command to get the board ID:
-```
-ls /dev/serial/by-id
-```
-Copy the ID with Crtl+C
-![Image03.png](https://github.com/FYSETC/FYSETC-Voron-0.2-Pro/blob/main/0.2/Docs/Manuals/Image03.png)
+1. plugin the USB3.0 A-A cable into the interface on the upper layer of the blue USB3.0 socket,
+2. open the "RKDevTool_Release",
+3. hold the recovery button, click the reset button,  when the  RKDevTool  found  device , release  the 2 buttons,
+4. Click the Upgrade Firmware tab, click the Firmware button to select the firmware, and click the Upgrade button to upgrade,
+5. Wait for the upgrade to complete. Remember not to cut off the power or unplug the data cable during the process, otherwise the upgrade will fail or even damage the CM68.
 
+## MCU Firmware
 
-Use the browser to enter the IP address of the Raspberry Pi to enter the mainsail interface
-Click on MACHINE
-Click printer.cfg in the list to enter the editing interface
-![Image04.png](https://github.com/FYSETC/FYSETC-Voron-0.2-Pro/blob/main/0.2/Docs/Manuals/Image04.png)
+<p style="color: red">
+<strong>
+Do not perform the following steps unless you are sure you want to reinstall the firmware.
+</strong>
+</p>
 
-Replace the ID in the [mcu] section
-![Image05.png](https://github.com/FYSETC/FYSETC-Voron-0.2-Pro/blob/main/0.2/Docs/Manuals/Image05.png)
+If you know the structure of klipper, then you should understand that the firmware of the MCU is compiled and installed by the host computer (CM68). This is the way we recommend.
 
-Click SAVE & RESTART
+Of course, you can also use other methods to burn the MCU, such as through the "STM32CubeProgrammer" on the computer, or with the help of burning tools such as STlink. These need to be studied by yourself, and our control board also provides corresponding interfaces.
 
-If it goes well, the system will automatically jump to Dashboard, and you can see the temperature curve
+The MCU model we use is STM32F401RCT6, with an external 12Mhz crystal oscillator, and uses PA11/PA12 as USB communication. The following is the MCU configuration and burning process:
 
-## 6.3.1 Build Firmware Image
+1. MCU enters DFU mode:
 
+   - Powered off the whole machine
+   - Use a jumper cap to connect 3V3 and B0(boot0)
+     [img]()
+   - Power on the whole machine and wait for it to start
 
-* Login to the Raspberry Pi via ssh
-* Run the following:
+2. Use putty or similar SSH tools to connect to CM68 using IP or host name
 
-   ```
-   cd ~/klipper
-   make clean
-   make menuconfig
-   ```
-
-* In the menu structure there are a number of items to be selected.
-  * Select "Enable extra low-level configuration options"
-  * Set the micro-controller architecture is set to `STMicroelectronics STM32`
-  * Set the Processor model to `STM32F446`
-  * **Many people have been unable to connect to the MCU because of the bootloader problem, so we recommends choosing a mode without a bootloader.**
-  * Set the Clock Reference to `12 MHz crystal`
-  * Set the Communication interface to `USB (on PA11/PA12)`  
-
-   ![Image06.png](https://github.com/FYSETC/FYSETC-Voron-0.2-Pro/blob/main/0.2/Docs/Manuals/Image06.png)
-
-* Once the configuration is selected, press `q` to exit, and "Yes" when  asked to save the configuration.
-
-* Run the command `make`
-* The `make` command, when completed, creates a firmware file **klipper.bin** which is stored in the folder `/home/pi/klipper/out`.  
-
-## 6.3.2 Firmware Installation
-
-* Requires a USB connection
-* Requires the installation of an extra jumper on the Cheetah V3 ( short the 3V3 and BT0)
-* Does NOT require a microSD card
-
-1. Power off the Cheetah V3
-2. Install a jumper between BT0 and 3V3
-
-![Image07.png](https://github.com/FYSETC/FYSETC-Voron-0.2-Pro/blob/main/0.2/Docs/Manuals/Image07.png)
-
-3. Connect Cheetah V3 & Pi via USB
-4. Power on Cheetah V3
-5. From your ssh session, run
     ```
-    cd ~/klipper
+    host name: voron-02-pro.local
+    Username: linaro
+    Password: linaro
+    If you are not very familiar with linux, do not use the root user to log in. Misoperation may cause damage to the system.
+    Username: root
+    Password: root
     ```
-    to make sure you are in the correct directory
-6. Run 
-    ```
-     lsusb
-    ```
-    and find the ID of the DFU device.
+
+3. Configure the firmware:
+
+    - use "lsusb" to ensure the mcu enter dfu mode,
+
+       ```
+       lsusb
+       ```
+
+    - configure the firmware
     
-    ![Image08.png](https://github.com/FYSETC/FYSETC-Voron-0.2-Pro/blob/main/0.2/Docs/Manuals/Image08.png)
+       ```
+       cd ~/klipper
+       make clean
+       make menuconfig
+       ```
+
+4. update the firmware and reboot
+
+    - Compile and burn the firmware:
     
-7. Run 
-    ```
-     make flash FLASH_DEVICE=0483:df11
-    ```
-    In general, the DFU mode of STM32 is this ID, if not, replacing 0483:df11 with the ID from the previous step
- 8. If everything goes well, you will see the words SUCCESSFUL.
-  
-    ![Image09.png](https://github.com/FYSETC/FYSETC-Voron-0.2-Pro/blob/main/0.2/Docs/Manuals/Image09.png)
+      ```
+       make flash FLASH_DEVICE=0483:df11
+      ```
     
- 9. Power off the Cheetah V3
+    - Powered off the whole machine
+    - Use a jumper cap to connect B0(boot0) and G(GND)
+    - Power on the whole machine and wait for it to start
 
- 10. Move the jumper to BT0 & GND (When the STM32 is turned on, BT0 should be at a low level, and it is also possible to hang it in the air, but in order to avoid unpredictable problems, it is better to short-circuit BT0 and GND here, which is more secure.)
+# Print
 
-   ![Image10.png](https://github.com/FYSETC/FYSETC-Voron-0.2-Pro/blob/main/0.2/Docs/Manuals/Image10.png)
+## Connect via Ethernet
 
+The control board defaults to obtain IP automatically, make sure your router can provide DHCP service normally. You only need to plug in the Internet cable, and when you see the green and yellow lights on, Indicates that it is connected to the network.
 
- 11. Power up the Cheetah V3
+You have two methods to login the mainsail webpage:
 
- 12. You can confirm that the flash was successful by running `ls /dev/serial/by-id`.  If the flash was successful, this should now show a klipper device, similar to:
+### IP address
+you need to go to your router to find the device named voron-02-pro, and write down the IP address
+### Host name
+The kit has already installed the required plug-ins, and you can access the mainsail page through the pre-set host name: voron-02-pro.local
 
-     ![Image11.png](https://github.com/FYSETC/FYSETC-Voron-0.2-Pro/blob/main/0.2/Docs/Manuals/Image11.png)
+## Connect via WiFi
 
+- First connect the machine to your LAN via Ethernet, make sure you can log in to CM68 via SSH.
+- Plug the included USB wifi into any USB interface on CATALYST board
+- Use the following command checks whether the wifi module is recognized:
+```
+sudo ifconfig
+```
+- Use the following command to connect to wifi
+```
+sudo wifi_sta_start.sh ssid password
+```
+- Use the following command checks whether the wifi module is connected to your router, and get the ip address :
+```
+sudo ifconfig
+```
 
-   (note: this test is not applicable if the firmware was compiled for UART, rather than USB)
+# FAQ
 
+## 1. Can't find mcu/unable to connect to mcu
+Reason:
+       It may be that the status of boot0 is uncertain, causing the STM32 to enter the DFU mode, resulting in the unconnect.
+Solution:
+   - Powered off the whole machine
+   - Use a jumper cap to connect B0(boot0) and G(GND)
+   - Power on the whole machine and wait for it to start
+## 2. Mcu firmware version too low
+Reason:
+The factory version of the klipper host is the same as that of the MCU. Maybe you have clicked the update button on the mainsail webpage to update the klipper host. As a result, the version of the host is newer than the firmware of the MCU.
+Solution:
+update the mcu firmware: Refer to the Firmware&OS==>MCU Firmware
+## 3. Temperature error
+Reason:
+You may have forgotten to connect the MX3.0 16P cable, or it may not be connected firmly.
+Solution:
+Make sure the MX3.0 16P cable is connected and secure.
+## 4. How to use the accelerometer
+Refer to klipper document: 
+https://www.klipper3d.org/Resonance_Compensation.html
 
-**Important:** If the Cheetah V3 is not powered with 12-24V, Klipper will be unable to communicate with the TMC drivers via UART and the Cheetah V3 will automatically shut down.
-
-
-## 7. Community
-
-[Voron community](https://discord.gg/voron)
-
-[FYSETC Facebook group](https://www.facebook.com/groups/238970713918171)
-
-## 8. Buy link
-
-[Aliexpress](https://www.aliexpress.us/item/3256805148633512.html?spm=a2g0o.store_pc_allProduct.8148356.5.7ec130ddrDKLzx&pdp_npi=2%40dis%21USD%21US%20%24450.12%21US%20%24369.10%21%21%21%21%21%402133f17c16793803412868250ef06b%2112000032671170252%21sh&gatewayAdapt=glo2usa&_randl_shipto=US)
+# Surpport
+Voron community: 
+https://discord.gg/voron
+FYSETC Facebook group: 
+https://www.facebook.com/groups/238970713918171
+FYSETC Discord:
+https://discord.gg/T3XcJPgr 
+# Buy Link
+https://www.aliexpress.us/item/3256805148633512.html
