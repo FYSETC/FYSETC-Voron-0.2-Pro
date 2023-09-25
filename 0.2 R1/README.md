@@ -246,6 +246,28 @@ Make sure the MX3.0 16P cable is connected and secure.
 Refer to klipper document: 
 https://www.klipper3d.org/Resonance_Compensation.html
 
+## 5. Wifi Connection Issues
+If you are having problems with your Catalyst wifi, please fix using the following solution. 
+
+SSH into the Catalyst, and run the following command `sudo nano /etc/network/interfaces`
+
+Once you have run the command, add the following lines 
+
+```
+auto wlan0
+iface wlan0 inet dhcp
+wpa-ssid Your Network Name Here
+wpa-psk Your Password Goes Here
+```
+example if your wifi name is fysetcwifi and password was WILLIAMisKING:
+```
+auto wlan0
+iface wlan0 inet dhcp
+wpa-ssid fysetcwifi
+wpa-psk WILLIAMisKING
+```
+
+
 # Surpport
 Voron community: 
 https://discord.gg/voron
