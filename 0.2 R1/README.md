@@ -25,7 +25,7 @@ Check it [here](https://github.com/FYSETC/FYSETC-Voron-0.2-Pro/tree/main/0.2%20R
 
 ### Hotend Mount
 
-https://github.com/FYSETC/FYSETC-Voron-0.2-Pro/blob/main/0.2%20R1/STL/Toolheads/Hotend_Mounts/Fan_Saver/%5Ba%5D_FS_Hotend_Mount_Dragon.stl
+Check it [here](https://github.com/FYSETC/FYSETC-Voron-0.2-Pro/blob/main/0.2%20R1/STL/Toolheads/Hotend_Mounts/Fan_Saver/%5Ba%5D_FS_Hotend_Mount_Dragon.stl)
 
 
 ### Unnecessary STLs
@@ -53,12 +53,12 @@ Kit already comes with PCB style strips to fix the rails
 
 ### Page 36 "FRAME - COMPONENT PREP"
 
-Check video [here]: (https://youtu.be/7Pc5haeAJ8E?si=1WgsYohBYdl78QiE&t=1348)
+Check video [here] (https://youtu.be/7Pc5haeAJ8E?si=1WgsYohBYdl78QiE&t=1348)
 
 
 ### Page 120 "X AXIS"
 
-Check video [here]: (https://youtu.be/7Muv3Jlx758?si=al9ezyuIO8-YeGr-&t=477)
+Check video [here] (https://youtu.be/7Muv3Jlx758?si=al9ezyuIO8-YeGr-&t=477)
 
 
 ### Page 190 "ELECTRONICS & WIRING"
