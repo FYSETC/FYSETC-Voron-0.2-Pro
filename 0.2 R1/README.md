@@ -11,9 +11,9 @@ https://vorondesign.com/voron0.2
 https://github.com/VoronDesign/Voron-0
 
 
-# Featrue
+# Feature
 
-The new **voron 0. 2 Pro R1 Kit** has a new design for the electronic part, which is easier to connect and configure, and is as close as possible to out-of-the-box use.
+The new **Voron 0. 2 Pro R1 Kit** has a new design for the electronic part, which is easier to connect and configure, and is as close as possible to out-of-the-box use.
 
 
 # STL changes
@@ -28,7 +28,7 @@ Check it [here](https://github.com/FYSETC/FYSETC-Voron-0.2-Pro/tree/main/0.2%20R
 https://github.com/FYSETC/FYSETC-Voron-0.2-Pro/blob/main/0.2%20R1/STL/Toolheads/Hotend_Mounts/Fan_Saver/%5Ba%5D_FS_Hotend_Mount_Dragon.stl
 
 
-### Unecessary STLs
+### Unnecessary STLs
 - Rear_Bed_Mount_Right_x1.stl
 - Front_Bed_Mount_x1.stl
 - Rear_Bed_Mount_Left_x1.stl
@@ -74,7 +74,7 @@ Check it [here](https://github.com/FYSETC/FYSETC-Voron-0.2-Pro/blob/main/0.2%20R
 
 <p style="color: green">
 <strong>
-The control board of this kit has been installed with klipper OS and MCU klipper firmware at the factory. And it's pre-configured.
+The control board of this kit has been installed with Klipper OS and MCU Klipper firmware at the factory. And it's pre-configured.
 As long as the wiring is correct, it can be used after power on.
 </strong>
 </p>
@@ -85,9 +85,9 @@ Do not perform the following steps unless you are sure you want to reinstall the
 </strong>
 </p>
 
-The control board uses the CM68 core based on RK3568 as the upper computer of klipper. Its system is compiled based on Debian 10, and the environment and plug-ins required by klipper are pre-installed. After burning, it can be used directly.
+The control board uses the CM68 core based on RK3568 as the upper computer of Klipper. Its system is compiled based on Debian 10, and the environment and plug-ins required by Klipper are pre-installed. After burning, it can be used directly.
 
-In general, the pre-installed system can be used directly without reflashing, unless you encounter unsolvable program problems.
+In general, the pre-installed system can be used directly without re-flashing, unless you encounter unsolvable program problems.
 
 The OS of CM68:
 
@@ -97,8 +97,8 @@ Update steps:
 
 1. plugin the USB3.0 A-A cable into the interface on the upper layer of the blue USB3.0 socket,
 2. open the "RKDevTool_Release",
-3. hold the recovery button, click the reset button,  when the  RKDevTool  found  device , release  the 2 buttons,
-4. Click the Upgrade Firmware tab, click the Firmware button to select the firmware, and click the Upgrade button to upgrade,
+3. hold the recovery button, click the reset button, when the RKDevTool found device, release the 2 buttons
+4. Click the Upgrade Firmware tab, click the Firmware button to select the firmware, and click the Upgrade button to upgrade
 5. Wait for the upgrade to complete. Remember not to cut off the power or unplug the data cable during the process, otherwise the upgrade will fail or even damage the CM68.
 
 ## MCU Firmware
@@ -109,7 +109,7 @@ Do not perform the following steps unless you are sure you want to reinstall the
 </strong>
 </p>
 
-If you know the structure of klipper, then you should understand that the firmware of the MCU is compiled and installed by the host computer (CM68). This is the way we recommend.
+If you know the structure of Klipper, then you should understand that the firmware of the MCU is compiled and installed by the host computer (CM68). This is the way we recommend.
 
 Of course, you can also use other methods to burn the MCU, such as through the "STM32CubeProgrammer" on the computer, or with the help of burning tools such as STlink. These need to be studied by yourself, and our control board also provides corresponding interfaces.
 
@@ -165,7 +165,7 @@ The MCU model we use is STM32F401RCT6, with an external 8Mhz crystal oscillator,
 
 ## Connect via Ethernet
 
-The control board defaults to obtain IP automatically, make sure your router can provide DHCP service normally. You only need to plug in the Internet cable, and when you see the green and yellow lights on, Indicates that it is connected to the network.
+The control board defaults to obtain IP automatically, make sure your router can provide DHCP service normally. You only need to plug in the Internet cable, and when you see the green and yellow lights on, indicates that it is connected to the network.
 
 You have two methods to login the mainsail webpage:
 
@@ -186,7 +186,7 @@ sudo ifconfig
 ```
 sudo wifi_sta_start.sh ssid password
 ```
-- Use the following command checks whether the wifi module is connected to your router, and get the ip address :
+- Use the following command checks whether the wifi module is connected to your router, and get the ip address:
 ```
 sudo ifconfig
 ```
@@ -195,14 +195,14 @@ sudo ifconfig
 
 ## 1. Can't find mcu/unable to connect to mcu
 Reason:
-       It may be that the status of boot0 is uncertain, causing the STM32 to enter the DFU mode, resulting in the unconnect.
+       It may be that the status of boot0 is uncertain, causing the STM32 to enter the DFU mode, resulting in the connection error.
 Solution:
    - Powered off the whole machine
    - Use a jumper cap to connect B0(boot0) and G(GND)
    - Power on the whole machine and wait for it to start
 ## 2. Mcu firmware version too low
 Reason:
-The factory version of the klipper host is the same as that of the MCU. Maybe you have clicked the update button on the mainsail webpage to update the klipper host. As a result, the version of the host is newer than the firmware of the MCU.
+The factory version of the Klipper host is the same as that of the MCU. Maybe you have clicked the update button on the mainsail webpage to update the Klipper host. As a result, the version of the host is newer than the firmware of the MCU.
 Solution:
 update the mcu firmware: Refer to the Firmware&OS==>MCU Firmware
 ## 3. Temperature error
@@ -211,7 +211,7 @@ You may have forgotten to connect the MX3.0 16P cable, or it may not be connecte
 Solution:
 Make sure the MX3.0 16P cable is connected and secure.
 ## 4. How to use the accelerometer
-Refer to klipper document: 
+Refer to Klipper document: 
 https://www.klipper3d.org/Resonance_Compensation.html
 
 ## 5. Wifi Connection Issues
@@ -227,16 +227,16 @@ iface wlan0 inet dhcp
 wpa-ssid Your Network Name Here
 wpa-psk Your Password Goes Here
 ```
-example if your wifi name is fysetcwifi and password was WILLIAMisKING:
+example if your wifi name is fysetcwifi and password was ItRocks:
 ```
 auto wlan0
 iface wlan0 inet dhcp
 wpa-ssid fysetcwifi
-wpa-psk WILLIAMisKING
+wpa-psk ItRocks
 ```
 
 
-# Surpport
+# Support
 Voron community: 
 https://discord.gg/voron
 FYSETC Facebook group: 
