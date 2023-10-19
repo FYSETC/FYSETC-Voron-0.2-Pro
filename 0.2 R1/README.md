@@ -53,12 +53,12 @@ Kit already comes with PCB style strips to fix the rails
 
 ### Page 36 "FRAME - COMPONENT PREP"
 
-Check video [here] (https://youtu.be/7Pc5haeAJ8E?si=1WgsYohBYdl78QiE&t=1348)
+Check video [here](https://youtu.be/7Pc5haeAJ8E?si=1WgsYohBYdl78QiE&t=1348)
 
 
 ### Page 120 "X AXIS"
 
-Check video [here] (https://youtu.be/7Muv3Jlx758?si=al9ezyuIO8-YeGr-&t=477)
+Check video [here](https://youtu.be/7Muv3Jlx758?si=al9ezyuIO8-YeGr-&t=477)
 
 
 ### Page 190 "ELECTRONICS & WIRING"
