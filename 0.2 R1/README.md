@@ -15,6 +15,10 @@ https://github.com/VoronDesign/Voron-0
 
 The new **Voron 0. 2 Pro R1 Kit** has a new design for the electronic part, which is easier to connect and configure, and is as close as possible to out-of-the-box use.
 
+# BOM
+
+[Voron 0.2 R1 Pro](https://github.com/FYSETC/FYSETC-Voron-0.2/blob/main/0.2%20R1/BOM.md)
+
 
 # STL changes
 
@@ -41,6 +45,13 @@ Check it [here](https://github.com/FYSETC/FYSETC-Voron-0.2-Pro/blob/main/0.2%20R
 - Fan_Mount_Top_x1.stl
 - M2_Nut_Adapter_Rotated_x5.stl
 
+# Wiring
+
+### R1 Pro kit
+
+Following is our Catalyst board wiring diagram for VORON 0.2 R1 pro kit.
+
+![](https://github.com/FYSETC/FYSETC-Voron-0.2-Pro/blob/main/0.2%20R1/Fysetc%20Voron%20V0.2%20R1%20umbilical%20Wiring.png)
 
 # Installation Guide 
 
