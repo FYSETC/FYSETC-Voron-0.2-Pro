@@ -94,11 +94,17 @@ https://drive.google.com/file/d/1JBLMIpcVtEe9ST9WWUlaOP-ofm4k7y5c/view?usp=drive
 
 Update steps:
 
-1. plugin the USB3.0 A-A cable into the interface on the upper layer of the blue USB3.0 socket,
-2. open the "RKDevTool_Release",
-3. hold the recovery button, click the reset button, when the RKDevTool found device, release the 2 buttons
-4. Click the Upgrade Firmware tab, click the Firmware button to select the firmware, and click the Upgrade button to upgrade
-5. Wait for the upgrade to complete. Remember not to cut off the power or unplug the data cable during the process, otherwise the upgrade will fail or even damage the CM68.
+1. Power on VORON with AC Power. Then plug in the USB3.0 A-A cable into the interface on the upper layer of the blue USB3.0 socket.
+2. Open the "RKDevTool_Release",
+4. Click the Upgrade Firmware (升级固件) tab, click the Firmware (固件) button to select the firmware, and click the Upgrade button to upgrade  
+   ![image](https://github.com/Psych0h3ad/FYSETC-Voron-0.2-Pro/assets/41975091/b0f80d14-62ae-452b-8478-029408acbbba)  
+   After selected firmware, it will show like as below  
+   ![image](https://github.com/Psych0h3ad/FYSETC-Voron-0.2-Pro/assets/41975091/6ede78d2-f826-43d7-ac16-405932acffeb)  
+5. Hold the recovery button, click the reset button while holding recovery button (No need to hold reset button), when the RKDevTool found device, release the recovery button.
+   ![image](https://github.com/Psych0h3ad/FYSETC-Voron-0.2-Pro/assets/41975091/6e3dc06d-0e17-4388-9369-1f6fb3cce675)  
+6. Wait for the upgrade to complete. Remember not to cut off the power or unplug the data cable during the process, otherwise the upgrade will fail or even damage the CM68.  
+   ![image](https://github.com/Psych0h3ad/FYSETC-Voron-0.2-Pro/assets/41975091/e04d7625-4fd1-4907-bf31-b128d4f48915)  
+
 
 ## MCU Firmware
 
