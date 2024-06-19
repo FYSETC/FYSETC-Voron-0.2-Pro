@@ -118,7 +118,7 @@ If you know the structure of Klipper, then you should understand that the firmwa
 
 Of course, you can also use other methods to burn the MCU, such as through the "STM32CubeProgrammer" on the computer, or with the help of burning tools such as STlink. These need to be studied by yourself, and our control board also provides corresponding interfaces.
 
-The MCU model we use is STM32F401RCT6, with an external 8Mhz crystal oscillator, and uses PA11/PA12 as USB communication. The following is the MCU configuration and burning process:
+The MCU model we use is STM32F446RCT6, with an external 8Mhz crystal oscillator, and uses PA11/PA12 as USB communication. The following is the MCU configuration and burning process:
 
 1. MCU enters DFU mode:
 
