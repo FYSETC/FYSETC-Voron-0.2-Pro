@@ -153,7 +153,7 @@ The MCU model we use is STM32F446RCT6, with an external 8Mhz crystal oscillator,
        make clean
        make menuconfig
        ```
-
+       ![](./catalyst_V2_menuconfig.png)
 4. update the firmware and reboot
 
     - Compile and burn the firmware:
@@ -165,6 +165,8 @@ The MCU model we use is STM32F446RCT6, with an external 8Mhz crystal oscillator,
     - Powered off the whole machine
     - Use a jumper cap to connect B0(boot0) and G(GND)
     - Power on the whole machine and wait for it to start
+  
+5.If you need update the M36 tool Board,Please refer to https://github.com/FYSETC/M36_HUB_V1
 
 # Print
 
