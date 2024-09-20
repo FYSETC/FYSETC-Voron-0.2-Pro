@@ -1,4 +1,4 @@
-You can Download the entire STL folder at once by clicking [**HERE**](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2FVoronDesign%2FVoron-0%2Ftree%2FVoron0.2r1%2FSTLs)
+Update 25/11/2023: Unecessary bed parts removed.
 
 # [Printed Parts Guide](https://docs.google.com/spreadsheets/d/1MSgTiXazJwyfcTe7QqNIMWwQ_lfM8cOXmiMWPZ2HkEI/copy)
 
@@ -16,7 +16,7 @@ Any file that ends with “_x#” is telling you the quantity of that part requi
 
 **BUILD SPECIFIC PARTS**
 
-*SKR_E3_V3_Din_Mount.stl*  
+*Headless_Skirt_Insert.stl*  
 Any file name that does **NOT** end with a quantity designation is a part that needs to be choosen based on the specific components and options you want for your build, things like controller boards, ADXL mounts or the Bowden toolhead are exampls of parts that will not have quantities and can be printed or not based on your choosing. 
 
 **ACCENT COLOR**
