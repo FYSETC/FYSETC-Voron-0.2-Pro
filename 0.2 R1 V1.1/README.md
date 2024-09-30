@@ -69,20 +69,16 @@ Check it [here](https://github.com/FYSETC/FYSETC-Voron-0.2-Pro/blob/main/0.2%20R
 
 # Firmware&OS
 
+
 ## CM68 OS 
+> [!CAUTION]
+> ```diff
+> + The control board of this kit has been installed with Klipper OS and MCU Klipper firmware at the factory.
+> + And it's pre-configured.
+> + As long as the wiring is correct, it can be used after power on.
+> - Do not perform the following steps unless you are sure you want to reinstall the firmware.
+> ```
 
-<p style="color: green">
-<strong>
-The control board of this kit has been installed with Klipper OS and MCU Klipper firmware at the factory. And it's pre-configured.
-As long as the wiring is correct, it can be used after power on.
-</strong>
-</p>
-
-<p style="color: red">
-<strong>
-Do not perform the following steps unless you are sure you want to reinstall the firmware.
-</strong>
-</p>
 
 The control board uses the CM68 core based on RK3568 as the upper computer of Klipper. Its system is compiled based on Debian 10, and the environment and plug-ins required by Klipper are pre-installed. After burning, it can be used directly.
 
