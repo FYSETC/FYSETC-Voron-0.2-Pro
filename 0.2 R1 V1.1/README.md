@@ -90,6 +90,9 @@ In general, the pre-installed system can be used directly without re-flashing, u
 
 The OS of CM68:
 
+The factory OS is here：
+https://github.com/FYSETC/Catalyst_Kit_V2.0/blob/main/software/update_voron0.2_20240108.rar
+
 https://drive.google.com/file/d/1JBLMIpcVtEe9ST9WWUlaOP-ofm4k7y5c/view?usp=drive_link
 
 Update steps:
