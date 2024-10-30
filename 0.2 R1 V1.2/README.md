@@ -22,7 +22,7 @@ The new **Voron 0. 2 R1 Pro V1.2 Kit** has a new design for the electronic part,
 
 # STL changes
 
-Check it.STL has not been modified and can continue to be used [here](https://github.com/FYSETC/FYSETC-Voron-0.2-Pro/tree/main/0.2%20R1%20V1.1/STL/ADD).
+Check it.STL has not been modified and can continue to be used [here](https://github.com/FYSETC/FYSETC-Voron-0.2-Pro/tree/Pro_R1_1.1/0.2%20R1%20V1.1/STL).
 
 
 ### Hotend Mount
