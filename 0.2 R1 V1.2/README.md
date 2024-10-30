@@ -13,23 +13,21 @@ https://github.com/VoronDesign/Voron-0
 
 # Feature
 
-The new **Voron 0. 2 R1 Pro V1.1 Kit** has a new design for the electronic part, which is easier to connect and configure, and is as close as possible to out-of-the-box use.
+The new **Voron 0. 2 R1 Pro V1.2 Kit** has a new design for the electronic part, which is easier to connect and configure, and is as close as possible to out-of-the-box use.
 
 # BOM
 
-[Voron 0.2 R1 Pro V1.1](https://github.com/FYSETC/FYSETC-Voron-0.2-Pro/blob/main/0.2%20R1%20V1.1/BOM.md)
+[Voron 0.2 R1 Pro V1.2](https://github.com/FYSETC/FYSETC-Voron-0.2-Pro/blob/main/0.2%20R1%20V1.1/BOM.md)
 
 
 # STL changes
 
-### Additional STLs
-
-Check it [here](https://github.com/FYSETC/FYSETC-Voron-0.2-Pro/tree/main/0.2%20R1%20V1.1/STL/ADD).
+Check it.STL has not been modified and can continue to be used [here](https://github.com/FYSETC/FYSETC-Voron-0.2-Pro/tree/main/0.2%20R1%20V1.1/STL/ADD).
 
 
 ### Hotend Mount
 
-Check it [here](https://github.com/FYSETC/FYSETC-Voron-0.2-Pro/tree/main/0.2%20R1%20V1.1/STL/Toolheads/Hotend_Mounts/Fan_Saver)
+Check it. [here](https://github.com/FYSETC/FYSETC-Voron-0.2-Pro/tree/main/0.2%20R1%20V1.1/STL/Toolheads/Hotend_Mounts/Fan_Saver)
 
 
 
