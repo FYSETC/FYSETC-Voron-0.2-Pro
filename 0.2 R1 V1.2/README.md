@@ -17,7 +17,7 @@ The new **Voron 0. 2 R1 Pro V1.2 Kit** has a new design for the electronic part,
 
 # BOM
 
-[Voron 0.2 R1 Pro V1.2]([https://github.com/FYSETC/FYSETC-Voron-0.2-Pro/blob/main/0.2%20R1%20V1.1/BOM.md](https://github.com/FYSETC/FYSETC-Voron-0.2-Pro/blob/Pro_R1_1.1/0.2%20R1%20V1.2/BOM.md))
+[Voron 0.2 R1 Pro V1.2]([https://github.com/FYSETC/FYSETC-Voron-0.2-Pro/blob/main/0.2%20R1%20V1.1/BOM.md])
 
 
 # STL changes
