@@ -7,7 +7,7 @@
 | 2     | Extruder Hardware | Sherpa nano-coating one-piece helical gear kit (Includes all accessories) | 1 SET  | Upgrade                             |
 | 3     | Frame             | Voron 0.2 R1 1515 aluminum extrusion profile frame kit（Tophat height 100mm） | 27 PCS | Upgrade                             |
 | 4     | Electronics       | Meanwell LRS-150-24                                          | 1 PC   |                                     |
-| 5     | Electronics       | FYSETC CATALYST V2.0                                         | 1 PC   | Upgrade                             |
+| 5     | Electronics       | FYSETC CATALYST V2.1                                         | 1 PC   | Upgrade                             |
 | 6     | Electronics       | Voron V0 1.3 inch OLED Display Screen                        | 1 PC   |                                     |
 | 7     | Electronics       | CM68 Linux core board (based on RK3568, 2GB+32GB), Raspberry Pi 4 replacement | 1 PC   | Upgrade                             |
 | 8     | Electronics       | MicroSD Card 16G                                             | 1 PC   |                                     |
@@ -39,7 +39,7 @@
 | 34    | Buildplate        | Silicone DC 24V Heater 100x100mm 75W （Faster heating rate）with plug | 1 PC   |                                     |
 | 35    | Buildplate        | Thermal Fuse (125C) with plug                                | 1 PC   |                                     |
 | 36    | Buildplate        | Yellow die springs 8x4x20mm                                  | 3 PCS  |                                     |
-| 37    | Buildplate        | PEI Powder Coated Spring Steel Flex Buildplate 120x124mm notched | 1 PC   |                                     |
+| 37    | Buildplate        | PEI Powder Coated Spring Steel Flex Buildplate 120x120mm notched | 1 PC   |                                     |
 | 38    | Buildplate        | Magnetic sheet for spring steel plate 120x120mm              | 1 PC   |                                     |
 | 39    | Panels            | Voron 0.2 Acrylic Panels kit                                 | 1 SET  |                                     |
 | 40    | Bowden            | Bowden Fitting ECAS04                                        | 3 PCS  | Increase Quantity                   |
