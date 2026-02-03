@@ -47,8 +47,9 @@ Running on CATALYST V2.0 Motherboard +CM68 Linux core board (based on RK3568, 2G
 
 [Voron 0.2 R1 Pro](https://github.com/FYSETC/FYSETC-Voron-0.2/blob/main/0.2%20R1/README.md)
 
-[Voron 0.2 R1 Pro V1.1](https://github.com/FYSETC/FYSETC-Voron-0.2-Pro/tree/main/0.2%20R1%20V1.1/README.md)
+[Voron 0.2 R1 Pro V1.1](https://github.com/FYSETC/FYSETC-Voron-0.2-Pro/blob/Pro_R1_1.1/0.2%20R1%20V1.1/README.md)
 
+[Voron 0.2 R1 Pro V1.2](https://github.com/FYSETC/FYSETC-Voron-0.2-Pro/blob/Pro_R1_1.1/0.2%20R1%20V1.2/README.md)
 
 ## 3. Community
 
